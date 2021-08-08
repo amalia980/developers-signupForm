@@ -122,3 +122,44 @@
         width: 26rem;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    
+    #left-txt {
+        width: 20rem;
+        margin-top: 5rem;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .left-p-txt {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #right {
+        margin: 0 auto;
+        width: 23rem;
+        height: 45rem;
+    }
+
+    #first-btn {
+        width: 20rem;
+        
+    }
+
+    #form {
+        width: 20rem;
+        padding: 2rem;
+    }
+
+    .inputs {
+        width: 16rem;
+        text-indent: 1rem;
+    }
+}
+

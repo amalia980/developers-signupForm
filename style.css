@@ -18,7 +18,7 @@ body {
     width: 100%;
     background: url("bg-intro-desktop.png");
     background-color: salmon;
-    height: 100vh;
+
 }
 
 
@@ -91,6 +91,8 @@ h1 {
     border-style: none;
     border-radius: 5px;
     cursor: pointer;
+    text-indent: 0;
+    text-align: center;
 }
 
 .terms {
