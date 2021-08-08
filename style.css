@@ -84,8 +84,7 @@ h1 {
     border-style: none;
 }
 
-/*CLAIM FOR FREE TRIAL button*/
-.inputs:nth-child(5) {
+#submit-btn {
     background-color:springgreen;
     color: white;
     border-style: none;
@@ -93,6 +92,10 @@ h1 {
     cursor: pointer;
     text-indent: 0;
     text-align: center;
+    width: 32rem;
+    height: 4rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .terms {

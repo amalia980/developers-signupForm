@@ -22,6 +22,10 @@
     .inputs {
         width: 24rem;
     }
+
+    #submit-btn {
+        width: 24rem;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -59,6 +63,10 @@
     }
 
     .inputs {
+        width: 32rem;
+    }
+
+    #submit-btn {
         width: 32rem;
     }
 
@@ -121,6 +129,10 @@
     .inputs {
         width: 26rem;
     }
+
+    #submit-btn {
+        width: 26rem;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -160,6 +172,10 @@
     .inputs {
         width: 16rem;
         text-indent: 1rem;
+    }
+
+    #submit-btn {
+        width: 16rem;
     }
 }
 
