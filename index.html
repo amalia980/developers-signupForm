@@ -30,16 +30,31 @@
         <section id="right">
             <div>
                 <button id="first-btn"><b>Try it for free</b> then $20/mo. thereafer</button>
-                    <form id="form">
+                    
+                <form id="form">
+                        <div id="error-fName" class="error-inputs"></div>
                         <input type="text" name="firstname" class="inputs" id="firstname" placeholder="First Name">
-                        <input type="text" name="lastname" class="inputs" placeholder="Last Name">
-                        <input type="email" name="email" class="inputs" placeholder="Email Address">
-                        <input type="password" name="password" class="inputs" placeholder="Password">
+                        
+                            <div id="error-LName" class="error-inputs"></div>
+                            <input type="text" name="lastname" class="inputs" id="lastname" placeholder="Last Name">
+                        
+                                <div id="error-email" class="error-inputs"></div>
+                                <input type="email" name="email" class="inputs" id="email" placeholder="Email Address">
+                        
+                            <div id="error-password" class="error-inputs"></div>
+                            <input type="password" name="password" class="inputs" id="password" placeholder="Password">
 
-                        <button id="submit-btn" type="submit"><b>CLAIM FOR FREE TRIAL</b></button>
+                            
+                            <!--
+                           <button id="submit-btn"><b>CLAIM FOR FREE TRIAL</b></button>
 
-                        <p class="terms">By clicking the button you are agreeing to our <a href="#" class="services">Terms and Services</a></p>
-           
+                            <a id="anchor" href="success.html">CLAIM FOR FREE TRIAL</a>
+                            -->
+
+                            <button id="submit-btn"><a id="anchor" href='success.html'><b>CLAIM FOR FREE TRIAL</b></a></button>
+
+                            <p class="terms">By clicking the button you are agreeing to our <a href="#" class="services">Terms and Services</a></p>
+                       
                     </form>
                 </div>
         </section>

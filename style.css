@@ -82,6 +82,17 @@ h1 {
     font-size: 1rem;
     font-weight:550;
     border-style: none;
+    outline: none;
+}
+
+.inputs:focus {
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+
+.error-inputs {
+    margin-bottom: 0.5rem;
 }
 
 #submit-btn {
@@ -98,6 +109,15 @@ h1 {
     margin-bottom: 1rem;
 }
 
+/*
+#anchor {
+    width: 32rem;
+    height: 4rem;
+    background-color:springgreen;
+    color: white;
+    padding: 1rem 15rem 1rem 15rem;
+}
+*/
 .terms {
    color: gray;
    text-align: center;
