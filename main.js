@@ -13,6 +13,8 @@ const myEmail = document.getElementById("email");
 const errorPassword = document.getElementById("error-password");
 const myPassword = document.getElementById("password");
 
+myBtn("onclick").disabled= false;
+
 
 
 myBtn.addEventListener("click", function(e) {
@@ -21,6 +23,7 @@ myBtn.addEventListener("click", function(e) {
     /*============ FIRST NAME =============*/
     if (myFirstName.value.length <=2) {
         errorFname.innerText = "Please enter First name*";
+
     }
     else if (myFirstName.value.length >= 2) {
         errorFname.innerText = ""; //empty the error message
@@ -53,10 +56,12 @@ myBtn.addEventListener("click", function(e) {
     /*============ SEND TO NEXT PAGE =============*/
     else {
 
+        myBtn("onclick").disabled = true;
+/*
         const myAnchor = document.getElementById("anchor");
 
-        myAnchor.setAttribute('href');
-        /*
+        myAnchor.location.href = "success.html";
+        
         const anchor = document.createElement("a");
         anchor.setAttribute("href", 'success.html');
 

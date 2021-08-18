@@ -111,21 +111,24 @@ h1 {
 
 /*
 #anchor {
-    width: 32rem;
-    height: 4rem;
+    
     background-color:springgreen;
     color: white;
-    padding: 1rem 15rem 1rem 15rem;
+    padding: 1rem 10rem 1rem 10rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
 }
 */
 .terms {
    color: gray;
    text-align: center;
+   margin-top: 2rem;
 }
 
 .services {
     text-decoration: none;
     color: salmon;
     text-align: center;
-
 }
